@@ -1,5 +1,12 @@
-# Getting Started with Create React App
+# ESTIEM members
 
+This application serves to show which students are members of ESTIEM's local groups and basic information about them. The application was created using the React JS framework.
+
+Data about students and local groups is stored in the file Data.js and all the data displayed in the web application is read from there.
+App.js contains all the routes to the pages and the function that loads the background on the home page.
+The reusable components used are Student.js, Navbar.js and LG.js and they display the content of the elements they are named after, with LG.js being a station unto itself and not just one element on the page.
+
+------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
